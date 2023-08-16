@@ -16,10 +16,6 @@ class InstallCheck
     public function handle($request, Closure $next)
     {
         // 安装检查
-        $installLock = base_path() . DIRECTORY_SEPARATOR . 'install.lock';
-        if (file_exists($installLock)) {
-            return redirect(url('/'));
-        }
         return $next($request);
     }
 }

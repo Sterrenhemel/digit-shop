@@ -687,13 +687,6 @@ TkSuQmCC" />
     </h1>
     <h2>独角数卡 「{{ config('dujiaoka.dujiaoka_version') }}」</h2>
     <div>
-
-        <p>每个梦想的路上，一起前行....！
-            <a href="https://t.me/dujiaoka" id="qq-group-link" target="_blank">
-                👉🏻加入Telegram交流群
-            </a>
-        </p>
-
         <form method="post">
             <div id="error" style="display:none"></div>
             <div id="success" style="display:none"></div>

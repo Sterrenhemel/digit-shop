@@ -10,7 +10,7 @@
 return [
     'official_website' => '官网',
     'dashboard' => '仪表盘',
-    'dashboard_description' => '每个梦想的路上，一起前行....！',
+    'dashboard_description' => '',
     'join_qq_group' => '加入qq群',
     'join_telegram_group' => '加入tg群',
     'is_open' => '是否启用',
